@@ -1,6 +1,6 @@
 import sys
 import network
-sys.path.insert(0, "/home/danno/Documentos/Dev/Python/Arq_trabalho/neural-networks-and-deep-learning/src")
+sys.path.insert(0, "/home/danno/Documentos/Dev/Python/Arq_trabalho/neural-networks/src")
 import mnist_loader
 
 training_data, validation_data, test_data = mnist_loader.load_data_wrapper()

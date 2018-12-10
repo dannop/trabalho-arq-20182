@@ -2,7 +2,94 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c8a43019-b993-4066-b400-e49b4e82ff8c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/neural-networks-and-deep-learning/src/mnist_loader.py" beforeDir="false" afterPath="$PROJECT_DIR$/neural-networks-and-deep-learning/src/mnist_loader.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neural-networks/data/mnist.pkl.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neural-networks/fig/backprop_magnitude_nabla.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neural-networks/fig/backprop_magnitude_nabla.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neural-networks/fig/data_1000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neural-networks/fig/digits.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neural-networks/fig/digits_separate.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neural-networks/fig/false_minima.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neural-networks/fig/false_minima.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neural-networks/fig/generate_gradient.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neural-networks/fig/initial_gradient.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neural-networks/fig/misleading_gradient.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neural-networks/fig/misleading_gradient.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neural-networks/fig/misleading_gradient_contours.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neural-networks/fig/misleading_gradient_contours.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neural-networks/fig/mnist.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neural-networks/fig/mnist_100_digits.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neural-networks/fig/mnist_2_and_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neural-networks/fig/mnist_complete_zero.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neural-networks/fig/mnist_first_digit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neural-networks/fig/mnist_other_features.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neural-networks/fig/mnist_really_bad_images.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neural-networks/fig/mnist_top_left_feature.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neural-networks/fig/more_data.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neural-networks/fig/more_data.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neural-networks/fig/more_data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neural-networks/fig/more_data_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neural-networks/fig/more_data_comparison.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neural-networks/fig/more_data_log.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neural-networks/fig/more_data_rotated_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neural-networks/fig/more_data_svm.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neural-networks/fig/multiple_eta.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neural-networks/fig/multiple_eta.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neural-networks/fig/multiple_eta.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neural-networks/fig/norms_during_training_2_layers.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neural-networks/fig/norms_during_training_3_layers.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neural-networks/fig/norms_during_training_4_layers.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neural-networks/fig/overfitting.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neural-networks/fig/overfitting.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neural-networks/fig/overfitting1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neural-networks/fig/overfitting2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neural-networks/fig/overfitting3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neural-networks/fig/overfitting4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neural-networks/fig/overfitting_full.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neural-networks/fig/overfitting_full.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neural-networks/fig/pca_hard_data.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neural-networks/fig/pca_hard_data_fit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neural-networks/fig/pca_limitations.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neural-networks/fig/regularized.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neural-networks/fig/regularized1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neural-networks/fig/regularized2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neural-networks/fig/regularized_full.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neural-networks/fig/regularized_full.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neural-networks/fig/replaced_by_d3/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neural-networks/fig/replaced_by_d3/relu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neural-networks/fig/replaced_by_d3/relu.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neural-networks/fig/replaced_by_d3/sigmoid.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neural-networks/fig/replaced_by_d3/sigmoid.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neural-networks/fig/replaced_by_d3/step.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neural-networks/fig/replaced_by_d3/step.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neural-networks/fig/replaced_by_d3/tanh.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neural-networks/fig/replaced_by_d3/tanh.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neural-networks/fig/serialize_images_to_json.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neural-networks/fig/test.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neural-networks/fig/training_speed_2_layers.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neural-networks/fig/training_speed_3_layers.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neural-networks/fig/training_speed_4_layers.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neural-networks/fig/valley.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neural-networks/fig/valley.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neural-networks/fig/valley2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neural-networks/fig/valley2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neural-networks/fig/weight_initialization.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neural-networks/fig/weight_initialization_100.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neural-networks/fig/weight_initialization_100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neural-networks/fig/weight_initialization_30.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neural-networks/fig/weight_initialization_30.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neural-networks/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neural-networks/src/conv.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neural-networks/src/expand_mnist.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neural-networks/src/mnist_average_darkness.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neural-networks/src/mnist_loader.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neural-networks/src/mnist_svm.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neural-networks/src/network.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neural-networks/src/network2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neural-networks/src/network3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/neural-networks-and-deep-learning" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,7 +99,7 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/Arq_trabalho$Arq_trabalho.coverage" NAME="main Coverage Results" MODIFIED="1544154522502" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Arq_trabalho$main.coverage" NAME="main Coverage Results" MODIFIED="1544209337706" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Arq_trabalho$main.coverage" NAME="main Coverage Results" MODIFIED="1544435910553" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -30,11 +117,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+            <state relative-caret-position="105">
+              <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -42,11 +129,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/neural-networks/src/mnist_loader.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="41" column="81" selection-start-line="41" selection-start-column="81" selection-end-line="41" selection-end-column="81" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/network.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1494">
-              <caret line="124" column="58" lean-forward="true" selection-start-line="120" selection-start-column="64" selection-end-line="124" selection-end-column="58" />
+            <state relative-caret-position="533">
+              <caret line="124" column="58" selection-start-line="120" selection-start-column="64" selection-end-line="124" selection-end-column="58" />
             </state>
           </provider>
         </entry>
@@ -54,13 +150,14 @@
     </leaf>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/neural-networks-and-deep-learning" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/neural-networks-and-deep-learning/src/mnist_loader.py" />
         <option value="$PROJECT_DIR$/network.py" />
+        <option value="$PROJECT_DIR$/neural-networks/src/mnist_loader.py" />
         <option value="$PROJECT_DIR$/main.py" />
       </list>
     </option>
@@ -88,18 +185,12 @@
             <path>
               <item name="Arq_trabalho" type="b2602c69:ProjectViewProjectNode" />
               <item name="Arq_trabalho" type="462c0819:PsiDirectoryNode" />
-              <item name="neural-networks-and-deep-learning" type="462c0819:PsiDirectoryNode" />
+              <item name="neural-networks" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Arq_trabalho" type="b2602c69:ProjectViewProjectNode" />
               <item name="Arq_trabalho" type="462c0819:PsiDirectoryNode" />
-              <item name="neural-networks-and-deep-learning" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Arq_trabalho" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Arq_trabalho" type="462c0819:PsiDirectoryNode" />
-              <item name="neural-networks-and-deep-learning" type="462c0819:PsiDirectoryNode" />
+              <item name="neural-networks" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -113,7 +204,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/main.py" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -163,22 +254,23 @@
       <updated>1544150880003</updated>
       <workItem from="1544150881824" duration="3827000" />
       <workItem from="1544206449964" duration="3027000" />
+      <workItem from="1544435831116" duration="104000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6854000" />
+    <option name="totallyTimeSpent" value="6958000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="26" width="1366" height="742" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25378788" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25757575" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32357723" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32357723" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -210,20 +302,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.py">
+    <entry file="file://$PROJECT_DIR$/network.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="533">
+          <caret line="124" column="58" selection-start-line="120" selection-start-column="64" selection-end-line="124" selection-end-column="58" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/network.py">
+    <entry file="file://$PROJECT_DIR$/neural-networks/src/mnist_loader.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1494">
-          <caret line="124" column="58" lean-forward="true" selection-start-line="120" selection-start-column="64" selection-end-line="124" selection-end-column="58" />
+        <state relative-caret-position="60">
+          <caret line="41" column="81" selection-start-line="41" selection-start-column="81" selection-end-line="41" selection-end-column="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
